@@ -2,7 +2,7 @@
 title: "assignment01_RR.Rmd"
 author: "abhishek"
 date: '2022-07-28'
-output: html_document
+output: md_document
 ---
 
 ## R Markdown
@@ -118,10 +118,6 @@ agg4 <- rbind(agg4, agg5)
 ggplot(data = agg4, mapping = aes(x = interval, y = steps)) +
     geom_line() + facet_wrap(~w, nrow = 2)
 ```
-
-
-
-
 
 
 
